@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.NFT_backed_collateral]
+path = 'contracts/NFT_backed_collateral.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.loan_contract]
 path = 'contracts/loan_contract.clar'
 clarity_version = 2
@@ -12,6 +17,11 @@ epoch = 2.5
 
 [contracts.reputation-based]
 path = 'contracts/reputation-based.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.tokenized_governance]
+path = 'contracts/tokenized_governance.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
