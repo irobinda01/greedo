@@ -10,6 +10,11 @@ path = 'contracts/NFT_backed_collateral.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.dispute_resolutions]
+path = 'contracts/dispute_resolutions.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.interest_rate_dynamics]
 path = 'contracts/interest_rate_dynamics.clar'
 clarity_version = 2
