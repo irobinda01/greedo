@@ -25,6 +25,11 @@ path = 'contracts/reputation-based.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.research]
+path = 'contracts/research.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.tokenized_governance]
 path = 'contracts/tokenized_governance.clar'
 clarity_version = 2
